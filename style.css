@@ -82,6 +82,8 @@ nav button {
 #subnav {
   padding: 32px 72px 0;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 #subnav button {
@@ -117,4 +119,14 @@ nav button {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+#sort {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+#filter {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
